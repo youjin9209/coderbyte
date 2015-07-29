@@ -2,12 +2,10 @@ def Palindrome(str)
 
   # code goes here
   flag = true
-  if str == str.reverse
-    flag = true
-  else
-     flag = false
+  if str !== str.reverse
+    flag = false
   end
-  return str 
+  return flag
  
 end
 
