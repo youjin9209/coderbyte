@@ -9,17 +9,17 @@ import java.io.*;
 class Function {  
   public String FirstReverse(String str) { 
     // code goes here 
-	String rev = "";
+    String rev = "";
     int len = str.length();
     
     for (int i = 0 ; i <len; i++){
-            rev += str.charAt(len-i-1) ;
+        rev += str.charAt(len-i-1);
     }
     return rev;
   }      
-}
 
-class Main {
+
+
   public static void main (String[] args) {  
    
     // keep this function call here
